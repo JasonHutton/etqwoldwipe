@@ -1,0 +1,27 @@
+ETQW Old Wipe v0.2:
+===================
+CHANGES:
+* Moved statusbar to a more traditional location.
+* Removed "Status:" prefix from statusbar text.
+* Context menu for the search results list added.
+  + You can compute individual files' md5 hashes via the context menu now.
+* Added a wait cursor when computing md5 hashes.
+* Added support to load .md5 files from a URL.
+  + The option is on the File menu.
+* Added the Delete button.
+  + Deletes all files with mismatched md5 hashes.
+
+FIXES:
+* Statusbar now updates while processing md5 hashes.
+* Keyboard shortcuts and mnemonics added.
+* Tab order indexing setup properly.
+* Added some exception handling to opening .md5 files.
+* Files that don't have their hashes computed no longer show up as valid.
+  + They now show up as ambiguous, as they should.
+* Fixed various instances where the md5 hashes weren't being displayed.
+* Misc. fixes to the Manual dialog.
+
+
+ETQW Old Wipe v0.1:
+===================
+Initial release.
